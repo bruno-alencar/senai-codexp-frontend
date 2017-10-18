@@ -7,16 +7,16 @@ body {
 }
 
 .information img {
-    padding-top: 2px;
-    width: 50%;
+    height: 10em;
+    width: 10em;
+    border-radius: 50%;
+    border: 1px solid white;
 }
+
 .information {
-
-}
-
-.information 
-{
+    background-color: #1c2c4d;
     height: 50%;
+    padding: 1em;
 }
 
 main {
@@ -28,8 +28,7 @@ main {
     text-align: center;
     box-shadow: 0 0 5px #154a2c;
     width: 25%;
-    color:#bdbdbd;
-    padding-bottom: 2em;
+    color: #bdbdbd;
 }
 
 .login-form {
@@ -46,6 +45,7 @@ main {
     border: none;
     font-size: 18px;
 }
+
 .login-form :-ms-input-placeholder {
     color: #b9b9b9;
 }
@@ -66,61 +66,61 @@ main {
 }
 
 ::-webkit-input-placeholder {
-    color:    #b9b9b9;
+    color: #b9b9b9;
 }
 
 #login-block a {
     text-decoration: none;
-    color:#00b242;
+    color: #00b242;
 }
 
-#login-block a:hover{
-    color:darkgreen;
+#login-block a:hover {
+    color: darkgreen;
 }
 
-#login-block h1{
+#login-block h1 {
     color: black;
     font-size: 20px;
 }
 
-#login-block h2{
+#login-block h2 {
     color: black;
     font-size: 17px;
 }
 
 @media screen and ( max-width: 500px) {
  #login-block {
-     width: 100%;
-     height: 100%;
+     width: 80%;
+     height: 75%;
  }
 }
 
 @media screen and (min-width: 500px) {
- #login-block {
-     width: 88%;
- }
+    main {
+        width: 88%;
+    }
 }
 
 @media screen and (min-width: 600px) {
- #login-block {
-     width: 77%;
- }
+    main {
+        width: 77%;
+    }
 }
 
 @media screen and (min-width: 900px) {
- #login-block {
-     width: 77%;
- }
+    main {
+        width: 77%;
+    }
 }
 
 @media screen and (min-width: 1300px) {
- #login-block {
-     width: 45%;
- }
+    main {
+        width: 45%;
+    }
 }
 
 @media screen and (min-width: 1300px) {
- #login-block {
-     width: 25%;
- }
+    main {
+        width: 25%;
+    }
 }
