@@ -10,29 +10,43 @@
 
 <body>
     <main>
-        <div class="information">
-
-            <img src="img/imagem.jpeg" alt="logo">
-            <h1>Rangvaldr Bell</h1>
-            <h2>@TEMPSECOM</h2>
-
+        <section class="information">
+            <div id="information__picture">
+                <img src="img/imagem.jpeg" alt="logo">
+            </div>
+            <div id="information__description">
+                <h1>Rangvaldr Bell</h1>
+                <h2>@TEMPSECOM</h2>
+            </div>
             <ul>
-                <li>2,501 TWEETS</li>
-                <li>158 FOLLOWING</li>
-                <li>25,850 FOLLOWERS</li>
+                <li>
+                    <span class="information__value">2,501</span>
+                    <p>TWEETS</p>
+                </li>
+                <li>
+                    <span class="information__value">158</span >
+                    <p>FOLLOWING</p>
+                </li>
+
+                <li>
+                    <span  class="information__value">25,850</span >
+                    <p>FOLLOWERS</p>
+                </li>
             </ul>
-        </div>
-        <div class="navigation">
-            <nav>
-                <ul>
-                    <li>Timeline</li>
-                    <li>Direct Messages</li>
-                    <li>Favourites</li>
-                    <li>Lists</li>
-                    <li>My Settings</li>
-                </ul>
+        </section>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#">Timeline</a></li>
+                <li><a href="#">
+                    <p>Direct Messages</p>
+                    <span id="navigation__quantity">13</span>
+                    </a>
+                </li>
+                <li><a href="">Favourites</a></li>
+                <li><a href="">Lists</a></li>
+                <li><a href="">My Settings</a></li>
+            </ul>
             </nav>
-        </div>
     </main>
 </body>
 
