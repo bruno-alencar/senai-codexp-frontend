@@ -73,7 +73,7 @@ main {
     border-bottom: 1px solid #bdbdbd;
 }
 
-.navigation li > span {
+.navigation li>span {
     float: right
 }
 
@@ -83,10 +83,10 @@ main {
     display: inline-block;
 }
 
-#navigation__quantity{
+#navigation__quantity {
     width: 20%;
-    background-color:#1c2c4d;
-    border: 1px solid #1c2c4d; 
+    background-color: #1c2c4d;
+    border: 1px solid #1c2c4d;
     border-radius: 3px;
     color: white;
     padding: 0 4px 0 4px;
@@ -113,6 +113,33 @@ main {
 @media screen and (min-width: 600px) {
     main {
         width: 77%;
+    }
+    #information__picture {
+        width: 30%;
+        display: inline-block;
+        margin: 0;
+    }
+    #separation {
+        border-bottom: 1px solid #bdbdbd;
+        display: block;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #information__picture img {
+        display: inline-block;
+        margin: 0;
+    
+    }
+    #information__description {
+        width: 55%;
+        display: inline-block;
+        border-bottom: none;
+        margin-bottom: 10px;
+    }
+
+    #information__description h1 {
+        display: inline-block;
     }
 }
 
