@@ -104,13 +104,13 @@ main {
     }
 }
 
-@media screen and (min-width: 500px) {
+/*@media screen and (min-width: 500px) {
     main {
         width: 88%;
     }
-}
+}*/
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 768px) {
     main {
         width: 77%;
     }
@@ -143,20 +143,14 @@ main {
     }
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 992px) {
     main {
         width: 50%;
     }
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1200px) {
     main {
         width:35%;
-    }
-}
-
-@media screen and (min-width: 1300px) {
-    main {
-        width: 35%;
     }
 }
