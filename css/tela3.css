@@ -119,7 +119,7 @@ main {
         display: inline-block;
         margin: 0;
     }
-    #separation {
+    #information__layer {
         border-bottom: 1px solid #bdbdbd;
         display: block;
         margin-left: 10px;
@@ -145,18 +145,18 @@ main {
 
 @media screen and (min-width: 900px) {
     main {
-        width: 77%;
+        width: 50%;
     }
 }
 
 @media screen and (min-width: 1300px) {
     main {
-        width: 45%;
+        width:35%;
     }
 }
 
 @media screen and (min-width: 1300px) {
     main {
-        width: 25%;
+        width: 35%;
     }
 }
