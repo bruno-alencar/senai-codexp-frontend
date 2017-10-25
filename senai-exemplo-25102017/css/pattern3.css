@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    border: 2px solid blue;
+}
+
+header,
+main,
+footer,
+p,
+div,
+aside {
+    border: 1px solid black;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+header,
+main,
+aside {
+    margin: 3%;
+}
+
+header {
+    padding: 1em;
+    width: 94%;
+    height: 10%;
+}
+
+header ul {
+    /*display: inline;*/
+    padding: 2%;
+}
+
+aside,
+main {
+    height: 74%;
+}
+
+main {
+    width: 50%;
+    float: left;
+    padding: 2%;
+}
+
+main p {
+    margin: 2%;
+    height: 40%;
+    padding: 2%;
+}
+
+aside {
+    width: 38%;
+    float: right;
+    padding: 1%;
+}
+
+aside div {
+    margin: 2%;
+    width: 28%;
+    float: left;
+    height: 10%;
+}
