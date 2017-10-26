@@ -52,8 +52,12 @@ body {
 .menu i {
   float: left;
 }
-
 .menu a {
+  text-decoration:  none;
+  color: white;
+}
+
+.menu #sign {
   float: right;
   color: white;
   text-decoration: none;
