@@ -12,11 +12,6 @@ body {
   color: white;
 }
 
-.aa {
-  text-decoration: none;
-  color: white;
-}
-
 .body__fundo::after {
   content: "";
   opacity: 0.5;
@@ -52,8 +47,15 @@ body {
 .menu i {
   float: left;
 }
+
+.div_logo__nome {
+  font-family: 'Comfortaa', cursive;
+  text-decoration: none;
+  color: white;
+}
+
 .menu a {
-  text-decoration:  none;
+  text-decoration: none;
   color: white;
 }
 
@@ -74,8 +76,8 @@ body {
 .div_logo {
   text-align: center;
   height: 25%;
-  font-size: 6em;
-  padding-top: 15%;
+  font-size: 5em;
+  padding-top: 20%;
 }
 
 #foto {
