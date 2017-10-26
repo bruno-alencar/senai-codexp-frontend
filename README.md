@@ -13,6 +13,10 @@
 [Tela 4](https://bruno-alencar.github.io/senai-codexp-frontend/tela4.html)
 
 
+## Projeto 2
+
+[Projeto 2](https://bruno-alencar.github.io/senai-codexp-frontend/Projeto2%20-%20Grupo%20E/)
+
 Celulares < 768px  (min-width: 0px) 
 
 Tablets >= 768px (min-width: 768px)
