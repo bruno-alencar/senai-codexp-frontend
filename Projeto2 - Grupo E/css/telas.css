@@ -133,18 +133,18 @@ body {
 }
 
 .divisao__input input {
-  width: 93%;
+  width: 92%;
   border: none;
   border-bottom: 1px solid white;
   background-color: transparent;
   padding-bottom: 5px;
-  margin-left: 2%;
+  margin-left: 3%;
 }
 
 input::-webkit-input-placeholder {
   color: white;
   font-family: 'Ubuntu', sans-serif;
-  font-size: 12px;
+  font-size: 1.3em;
   font-weight: 200;
 }
 
