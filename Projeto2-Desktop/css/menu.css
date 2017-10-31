@@ -1,0 +1,89 @@
+.header {
+width: 100%;
+height: 10%;
+background: #01252c;
+display: inline-block;
+
+}
+
+.footer {
+width: 100%;
+height: 10%;
+background: #01252c;
+display: inline-block;
+}
+
+.logo {
+width: 30%;
+height: 100%;
+padding-left: 10%;
+display: inline-block;
+
+}
+
+.logo img {
+width: 50%;
+height: 100%;
+background-color: #01252c;
+}
+
+.nav {
+width: 60%;
+height: 100%;
+padding-left: 20%;
+float: right;
+
+}
+
+.nav_footer {
+width: 60%;
+height: 100%;
+padding-left: 10%;
+float: left;
+}
+
+.nav_footer li {
+width: 8%;
+margin-top: 5%;
+text-align: center;
+font-family: "helvetica", Sans-Serif;
+font-size: 14px;
+display: inline;
+}
+
+.nav_footer a{
+background-color: #01252c;
+color: #07b6bf;
+padding-top: 10px;
+padding-bottom: 10px;
+
+}
+
+.nav li {
+width: 10%;
+margin-top: 5%;
+text-align: center;
+font-family: "helvetica", Sans-Serif;
+font-size: 13px;
+display: inline;
+}
+
+.nav a {
+background-color: #01252c;
+color: #07b6bf;
+padding-top: 10px;
+padding-bottom: 10px;
+margin-right: 3%;
+
+}
+
+.nav a:hover {
+background: linear-gradient(#18b9c2, #054a5d);
+}
+
+.texto {
+padding-top: 2.5%;
+color: #07b6bf;
+font-family: "helvetica", Sans-Serif;
+font-size: 13px;
+}
